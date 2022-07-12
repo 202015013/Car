@@ -1,10 +1,11 @@
 public class Genesis implements Car {
     @Override
-    public void go(){
+    public void go() {
         System.out.println("Genesis go");
     }
+
     @Override
-    public void open(){
+    public void open() {
         System.out.print(("Genesis open"));
     }
 }
